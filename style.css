@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/oldbackimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+    color: white;
+}
+
+.header-area {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 80px;
+    background: rgba(250, 250, 250, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+}
+.navlink, .signbutton a{
+    color:white;
+    text-decoration: none;
+}
+
+.item {
+    display: flex;
+    justify-content: right;
+}
+
+.navbar {
+    margin-left: 200PX;
+}
+.signbutton{
+    background-color: orangered;
+    text-align: center;
+
+}
